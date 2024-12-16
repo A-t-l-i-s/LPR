@@ -1,0 +1,16 @@
+
+width: 1920
+height: 1080
+
+fps: 30
+
+autofocus: False
+
+contrast: 1.0
+brightness: 1.0
+saturation: 1.0
+
+hue: 1.0
+gain: 1.0
+
+sharpness: 0.75

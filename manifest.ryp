@@ -1,0 +1,9 @@
+@Extension: RyPile-Python
+
+
+@Unbuffered
+@DontWriteBytecode
+
+@File: "res/scripts/website.py"
+@Done
+@Wait

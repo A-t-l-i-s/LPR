@@ -1,0 +1,199 @@
+
+body{
+	text-align: center;
+
+	font-family: Nunito;
+	font-size: 1vw;
+
+	color: white;
+	background-color: rgb(10, 10, 10);
+
+	margin: .4vw;
+	padding: 0;
+}
+
+
+h1, h2, h3, h4, h5, h6{
+	color: white;
+	font-family: Nunito;
+	font-weight: bold;
+
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+h1{
+	font-size: 1.6vw;
+}
+
+h2{
+	font-size: 1.3vw;
+}
+
+h3{
+	font-size: 1vw;
+}
+
+h4{
+	font-size: .7vw;
+}
+
+h5{
+	font-size: .4vw;
+}
+
+h6{
+	font-size: .1vw;
+}
+
+
+.noselect{
+	user-select: none;
+}
+
+
+.nocursor{
+	cursor: none;
+}
+
+
+.button{
+	display: inline-block;
+
+	padding: 0.3vw 0.8vw;
+	margin: .2vw;
+
+	cursor: pointer;
+
+	color: white;
+	background-color: rgb(252, 53, 153);
+
+	border-radius: 6px;
+
+	font-family: Nunito;
+	font-size: .8vw;
+	font-weight: 700;
+
+	transition: background-color 200ms;
+}
+
+.button:hover{
+	background-color: rgb(222, 44, 134);
+}
+
+
+.slider{
+	-webkit-appearance: none;
+
+	width: 8vw;
+	height: 0.5vw;
+
+	background: rgb(255, 170, 200);
+
+	border-radius: 4px;
+
+	opacity: 0.9;
+	transition: opacity .2s;
+}
+
+.slider:hover{
+  opacity: 1;
+}
+
+.slider::-webkit-range-thumb{
+	-webkit-appearance: none;
+
+	width: 0.95vw;
+	height: 0.95vw;
+	cursor: pointer;
+	background: white;
+
+	border: none;
+	border-radius: 16px;
+}
+
+.slider::-moz-range-thumb{
+	width: 0.95vw;
+	height: 0.95vw;
+
+	cursor: pointer;
+	background: white;
+
+	border: none;
+	border-radius: 16px;
+}
+
+.slider::-moz-focus-outer{
+	border: 0;
+}
+
+
+.sliderContainer{
+	padding: 0.2vw;
+
+	display: inline-block;
+	
+	border: 0.2vw solid rgba(255, 255, 255, 0.5);
+	border-radius: 6px;
+}
+
+.sliderButtonContainer{
+	position: relative;
+}
+
+.sliderButton{
+	position: absolute;
+	top: -0.2vw;
+	right: -0.2vw;
+}
+
+
+.controlContainer{
+	width: 25vw;
+	
+/*	padding: 0.5vw;*/
+	margin: 0.2vw;
+	
+	display: inline-block;
+	
+	background-color: hotpink;
+	
+	border-radius: 8px;
+	box-shadow: .1vw .1vw .4vw hotpink;
+}
+
+.controlContainer > div{
+	display: grid;
+
+	row-gap: 0.2vw;
+	padding: 0.4vw;
+	
+	text-align: left;
+}
+
+.controlTitle{
+	margin: 0 0 -0.3vw 0;
+	text-align: center;
+
+	font-weight: 800;
+}
+
+
+.feedContainer{
+	width: 40vw;
+	
+	padding: 0.2vw;
+	background-color: transparent;
+
+	display: inline-block;
+
+	border-radius: 8px;
+}
+
+.feedContainer > img{
+	width: 100%;
+	height: 100%;
+
+	border-radius: 8px;
+	box-shadow: .1vw .1vw .4vw hotpink;
+}

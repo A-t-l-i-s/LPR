@@ -1,0 +1,13 @@
+[Unit]
+Description=LPR
+
+[Service]
+Type=simple
+Restart=always
+RestartSec=5
+WorkingDirectory=/root/LPR/
+ExecStart=bash run.sh
+
+[Install]
+WantedBy=multi-user.target
+
